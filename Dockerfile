@@ -11,4 +11,5 @@ COPY . .
 # 在工作目录中执行，根目录可能有问题
 RUN npm install
 RUN npm run build
-RUN npm run serve
+# RUN npm run serve
+CMD ['node','./dist/app.js']

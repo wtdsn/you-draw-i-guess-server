@@ -8,6 +8,7 @@
     "koa2-cors": "^2.0.6",
     "nodejs-websocket": "^1.7.2",
     "tsc-alias": "^1.8.6",
+    "typescript": "^4.7.4",
     "utils-h": "^1.1.4"
   },
   "scripts": {
