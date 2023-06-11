@@ -8,7 +8,7 @@ import createWsServer from './ws'
 
 const app = new Koa()
 
-app.on('error', (err, ctx) => {
+app.on('error', (err) => {
 	console.error('server error', err)
 })
 
