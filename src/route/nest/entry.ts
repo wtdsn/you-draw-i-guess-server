@@ -3,7 +3,7 @@ import create from '@src/controller/entry/create'
 import { joinByNumber } from '@src/controller/entry/join'
 
 const router = new Router({
-  prefix: '/entry'
+	prefix: '/entry'
 })
 
 router.post('/create', create)

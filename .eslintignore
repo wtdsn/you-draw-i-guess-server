@@ -1,3 +1,4 @@
 ./node_module/*
 /vscode/*
 src/utils/socket-h
+dist
